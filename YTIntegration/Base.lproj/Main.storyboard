@@ -36,8 +36,8 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QIZ-mA-sUd">
-                                        <rect key="frame" x="283" y="25" width="67" height="30"/>
-                                        <state key="normal" title="Viemo BP"/>
+                                        <rect key="frame" x="275" y="25" width="75" height="30"/>
+                                        <state key="normal" title="Viemo-Min"/>
                                         <connections>
                                             <action selector="showVimeoBP" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wrv-qC-MQl"/>
                                         </connections>
@@ -46,6 +46,7 @@
                                         <rect key="frame" x="165.66666666666666" y="25" width="44" height="30"/>
                                         <state key="normal" title="Vimeo"/>
                                         <connections>
+                                            <action selector="showVimeo" destination="BYZ-38-t0r" eventType="touchUpInside" id="DYu-Ur-Nbm"/>
                                             <action selector="showYoutube" destination="BYZ-38-t0r" eventType="touchUpInside" id="zjj-p5-oL0"/>
                                         </connections>
                                     </button>
