@@ -55,7 +55,7 @@ class ViewController: UIViewController, WKUIDelegate {
         case .Youtube:
             videoUrl = URL(string: "https://www.youtube.com/embed/fEMakZVwq-Y?playsinline=1&autoplay=1")!
         case .ViemoBackGround:
-             videoUrl = URL(string: "https://player.vimeo.com/video/396006632?autoplay=1&title=0&byline=0&fun=0")!
+             videoUrl = URL(string: "https://player.vimeo.com/video/396010417?autoplay=1")!
         }
         webView.load(URLRequest(url: videoUrl))
         self.customView.addSubview(webView)
