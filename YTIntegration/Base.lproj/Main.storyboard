@@ -22,47 +22,50 @@
                                 <rect key="frame" x="0.0" y="44" width="375" height="734"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S14-Vq-B2t">
-                                        <rect key="frame" x="0.0" y="72" width="375" height="203"/>
+                                        <rect key="frame" x="0.0" y="80" width="375" height="203"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="203" id="qZ8-69-mYo"/>
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AWh-Qw-5d9">
-                                        <rect key="frame" x="61" y="26" width="57" height="30"/>
+                                        <rect key="frame" x="25" y="25" width="57" height="30"/>
                                         <state key="normal" title="Youtube"/>
                                         <connections>
                                             <action selector="showYoutube" destination="BYZ-38-t0r" eventType="touchUpInside" id="d0P-MI-AAX"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QIZ-mA-sUd">
-                                        <rect key="frame" x="285" y="26" width="67" height="30"/>
+                                        <rect key="frame" x="283" y="25" width="67" height="30"/>
                                         <state key="normal" title="Viemo BP"/>
                                         <connections>
                                             <action selector="showVimeoBP" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wrv-qC-MQl"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LiN-Vz-NeJ">
-                                        <rect key="frame" x="174" y="26" width="44" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="crV-rH-B6s">
+                                        <rect key="frame" x="165.66666666666666" y="25" width="44" height="30"/>
                                         <state key="normal" title="Vimeo"/>
                                         <connections>
-                                            <action selector="showVimeo" destination="BYZ-38-t0r" eventType="touchUpInside" id="pu4-at-XS5"/>
+                                            <action selector="showYoutube" destination="BYZ-38-t0r" eventType="touchUpInside" id="zjj-p5-oL0"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="S14-Vq-B2t" firstAttribute="top" secondItem="AWh-Qw-5d9" secondAttribute="bottom" constant="16" id="21i-Xp-sCI"/>
-                                    <constraint firstAttribute="trailing" secondItem="S14-Vq-B2t" secondAttribute="trailing" id="4rs-6c-8QN"/>
-                                    <constraint firstItem="LiN-Vz-NeJ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="AWh-Qw-5d9" secondAttribute="trailing" constant="8" symbolic="YES" id="FpX-V0-pQ7"/>
-                                    <constraint firstItem="QIZ-mA-sUd" firstAttribute="leading" secondItem="LiN-Vz-NeJ" secondAttribute="trailing" constant="67" id="KWR-e2-kkA"/>
-                                    <constraint firstItem="S14-Vq-B2t" firstAttribute="centerX" secondItem="LcJ-Dg-OKW" secondAttribute="centerX" id="bBg-OB-OMM"/>
-                                    <constraint firstAttribute="bottom" secondItem="S14-Vq-B2t" secondAttribute="bottom" constant="459" id="cNA-wL-XHz"/>
-                                    <constraint firstItem="AWh-Qw-5d9" firstAttribute="leading" secondItem="LcJ-Dg-OKW" secondAttribute="leading" constant="61" id="dSL-QZ-7dz"/>
-                                    <constraint firstItem="AWh-Qw-5d9" firstAttribute="baseline" secondItem="LiN-Vz-NeJ" secondAttribute="baseline" id="gd7-0V-QHz"/>
-                                    <constraint firstItem="S14-Vq-B2t" firstAttribute="top" secondItem="LcJ-Dg-OKW" secondAttribute="top" constant="72" id="hjC-fQ-PUi"/>
-                                    <constraint firstItem="S14-Vq-B2t" firstAttribute="leading" secondItem="LcJ-Dg-OKW" secondAttribute="leading" id="imH-iL-ssj"/>
-                                    <constraint firstAttribute="trailing" secondItem="LiN-Vz-NeJ" secondAttribute="trailing" constant="157" id="wqi-Ut-Kzr"/>
-                                    <constraint firstItem="QIZ-mA-sUd" firstAttribute="baseline" secondItem="LiN-Vz-NeJ" secondAttribute="baseline" id="wqu-pK-FCk"/>
+                                    <constraint firstItem="crV-rH-B6s" firstAttribute="top" secondItem="LcJ-Dg-OKW" secondAttribute="top" constant="25" id="19h-cw-TMi"/>
+                                    <constraint firstItem="S14-Vq-B2t" firstAttribute="top" secondItem="crV-rH-B6s" secondAttribute="bottom" constant="25" id="2QH-Kr-Xgx"/>
+                                    <constraint firstAttribute="trailing" secondItem="QIZ-mA-sUd" secondAttribute="trailing" constant="25" id="3Je-o4-HJp"/>
+                                    <constraint firstItem="S14-Vq-B2t" firstAttribute="leading" secondItem="LcJ-Dg-OKW" secondAttribute="leading" id="6Xg-pV-dsX"/>
+                                    <constraint firstItem="AWh-Qw-5d9" firstAttribute="top" secondItem="LcJ-Dg-OKW" secondAttribute="top" constant="25" id="EXf-ZE-ZOI"/>
+                                    <constraint firstItem="crV-rH-B6s" firstAttribute="centerX" secondItem="S14-Vq-B2t" secondAttribute="centerX" id="HTR-00-9ZQ"/>
+                                    <constraint firstItem="S14-Vq-B2t" firstAttribute="centerX" secondItem="LcJ-Dg-OKW" secondAttribute="centerX" id="Pix-Jv-aNn"/>
+                                    <constraint firstItem="QIZ-mA-sUd" firstAttribute="top" secondItem="LcJ-Dg-OKW" secondAttribute="top" constant="25" id="S6b-gP-5RC"/>
+                                    <constraint firstItem="S14-Vq-B2t" firstAttribute="top" secondItem="QIZ-mA-sUd" secondAttribute="bottom" constant="25" id="VVg-Pk-V0P"/>
+                                    <constraint firstItem="crV-rH-B6s" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="AWh-Qw-5d9" secondAttribute="trailing" id="YQW-58-AFq"/>
+                                    <constraint firstAttribute="bottom" secondItem="S14-Vq-B2t" secondAttribute="bottom" constant="451" id="YRM-Lq-Bth"/>
+                                    <constraint firstItem="QIZ-mA-sUd" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="crV-rH-B6s" secondAttribute="trailing" id="ZLA-VC-ehe"/>
+                                    <constraint firstItem="S14-Vq-B2t" firstAttribute="top" secondItem="AWh-Qw-5d9" secondAttribute="bottom" constant="25" id="ck1-gy-Dic"/>
+                                    <constraint firstItem="AWh-Qw-5d9" firstAttribute="leading" secondItem="LcJ-Dg-OKW" secondAttribute="leading" constant="25" id="rqO-ru-q1g"/>
+                                    <constraint firstAttribute="trailing" secondItem="S14-Vq-B2t" secondAttribute="trailing" id="u25-Z7-6bN"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
